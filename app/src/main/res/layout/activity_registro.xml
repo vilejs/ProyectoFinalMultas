@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+
+
+
+
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondo2"
+        android:scaleType="centerCrop"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <!-- ACTIVIDAD TITULO-->
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/txt_TituloRegistro"
+            android:textAlignment="center"
+            android:textSize="25dp"
+
+            android:textColor="@color/blanco" />
+
+        <!-- IMAGEN-->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/usuarios"
+
+            />
+        <!-- USUARIO NUEVO-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtUsuarioNuevo"
+            android:hint="@string/edt_UsuarioNuevo"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColorHint="#ccc"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:inputType="text"
+            />
+
+
+        <!-- CIUDAD-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtCiudadNuevo"
+            android:hint="@string/edt_Ciudad"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/input"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColorHint="#ccc"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:inputType="text"
+            />
+
+        <!-- CORREO-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtCorreoNuevo"
+            android:hint="@string/edt_Correo"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/input"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColorHint="#ccc"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:inputType="text"
+            />
+
+        <!-- CONTRASEÑA-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtContrasenaNueva"
+            android:hint="@string/edt_ContrasenaNueva"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/input"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColorHint="#ccc"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            />
+
+
+        <Button
+            android:id="@+id/btnregistarUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
+            android:textStyle="bold"
+            android:text="@string/btn_RegistarUsuario"
+            android:textColor="#071E96"
+            android:textSize="18dp" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+

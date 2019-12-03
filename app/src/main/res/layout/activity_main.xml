@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondo2"
+        android:scaleType="centerCrop"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <!-- LOGO-->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/agente"
+
+            />
+
+        <!-- USUARIO / CORREO-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtUsuario"
+            android:hint="@string/edt_Usuario"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColorHint="#ccc"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:inputType="text"
+
+            />
+
+        <!-- CONTRASEÑA -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtContrasena"
+            android:hint="@string/edt_Contrasena"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/input"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textColorHint="#ccc"
+            android:textColor="#fff"
+            android:inputType="textPassword"
+            />
+
+        <!-- BOTON INICIO DE SESION-->
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
+            android:textStyle="bold"
+            android:text="@string/btn_Iniciar"
+            android:textColor="#071E96"
+            android:textSize="18dp" />
+
+        <!-- BOTON USUARIOS REGSITRADOS-->
+        <Button
+            android:id="@+id/btnMostarUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
+            android:textStyle="bold"
+            android:text="@string/btn_MostrarUsuarios"
+            android:textColor="#071E96"
+            android:textSize="18dp" />
+
+
+        <!-- BOTON REGSITRAR-->
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_fondo_color"
+            android:elevation="5dp"
+            android:textStyle="bold"
+            android:text="@string/btn_Registrar"
+            android:textColor="#071E96"
+            android:textSize="18dp" />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

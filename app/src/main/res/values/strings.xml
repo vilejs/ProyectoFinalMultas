@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MULTAS</string>
+    <!-- ACTIVIDAD UNICIO DE SESION-->
+
+
+    <string name="edt_Usuario">CORREO</string>
+    <string name="edt_Contrasena">CONTRASEÑA</string>
+
+
+
+    <string name="btn_Iniciar">INICIAR SESION</string>
+    <string name="btn_Registrar">Registrar</string>
+    <string name="btn_MostrarUsuarios">USUARIOS REGISTRADOS</string>
+
+    <!-- ACTIVIDAD REGISTRO-->
+
+    <string name="txt_TituloRegistro">REGISTRO DE AGENTES</string>
+    <string name="edt_UsuarioNuevo">Nombre de Usuario</string>
+    <string name="edt_Ciudad">Ciudad</string>
+    <string name="edt_Correo">E-mail</string>
+    <string name="edt_ContrasenaNueva">Contraseña</string>
+    <string name="btn_RegistarUsuario">REGISTAR USUARIO</string>
+
+    <!-- ACTIVIDAD REGISTRO-->
+
+    <string name="txt_TituloMostarUsuarios">REGISTRO DE USUARIOS</string>
+
+
+
+</resources>
